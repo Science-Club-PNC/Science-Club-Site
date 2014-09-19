@@ -13,7 +13,7 @@
 		<!--Navigation Include-->
 		<?php
 
-		include 'nav.php';
+		include '../nav.php';
 
 		?>
 		<!--Website content-->
