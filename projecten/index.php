@@ -5,8 +5,8 @@
 		Home
 	</title>
 	<meta charset="utf-8"/>
-	<link rel="stylesheet" href="css/css.css">
-	<link rel="shortcut icon" type="image/png" href="img/alt icon8.png">
+	<link rel="stylesheet" href="../css/css.css">
+	<link rel="shortcut icon" type="image/png" href="../img/alt icon8.png">
 </head>
 <body>
 	<div class="container">
