@@ -20,7 +20,7 @@ body>div{
 /*Container*/
 div.container{
 	margin: 1% 10% 5% 10%;
-	background-image: url('../img/paper_overlay.png');
+	background-image: url('../img/paper_overlay_light.png');
 	background-color: white;
 	padding: 0.5% 0% 1% 0%;
 }
@@ -123,8 +123,12 @@ div.content{
 }
 
 div.box{
-	border: 2.5px solid #000;
 	padding: 5px;
+	background-image: url('../img/paper_overlay_light.png');
+	background-color: lightgray;
+	border: 7px solid #000;
+	border-image: url('../img/crude_drawn_border.png') 16 round;
+	border-image-outset: 7px;
 }
 
 h3{
