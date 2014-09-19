@@ -14,15 +14,41 @@ body>div{
 	background: url('../img/paper_overlay.png') fixed;
 	display:inline-block;
 	width: 100%;
-	min-height: 100%
+	min-height: 100%;
 }
 
 /*Container*/
 div.container{
-	margin: 1% 10% 5% 10%;
+	margin: 2% 10% 5% 10%;
 	background-image: url('../img/paper_overlay_light.png');
 	background-color: white;
 	padding: 0.5% 0% 1% 0%;
+	box-shadow: 0 0 10px rgba(0,0,0,0.3);
+	position: relative;
+}
+
+div.container:before, div.container:after {
+	content: "";
+	height: 98%;
+	position: absolute;
+	width: 100%;
+	z-index: -1;
+}
+
+div.container:before {
+	background: #fafafa;
+	box-shadow: 0 0 8px rgba(0,0,0,0.2);
+	left: -5px;
+	top: 4px;
+	transform: rotate(-2.5deg);
+}
+
+div.container:after {
+	background: #f6f6f6;
+	box-shadow: 0 0 3px rgba(0,0,0,0.2);
+	right: -3px;
+	top: 1px;
+	transform: rotate(1.4deg);
 }
 
 /*Navigatie Balk*/
