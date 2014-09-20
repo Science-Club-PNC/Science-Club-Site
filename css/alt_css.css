@@ -1,12 +1,12 @@
 /*Fonts*/
 @font-face{
     font-family: headerFont;
-	src: url(../font/handwriting-draft_free-version.ttf);
+	src: url(../font/AlbertsthalTypewriter.ttf);
 }
 
 @font-face{
     font-family: paragraphFont;
-	src: url(../font/YummyCupcakes.ttf);
+	src: url(../font/TravelingTypewriter.otf);
 }
 
 /*Background*/
@@ -161,7 +161,7 @@ div.content{
 
 p{
 	font-family: paragraphFont;
-	font-size: 20px;
+	font-size: 18px;
 	letter-spacing: 0.4px;
 }
 
