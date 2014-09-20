@@ -1,3 +1,15 @@
+/*Fonts*/
+@font-face{
+    font-family: headerFont;
+	src: url(../font/handwriting-draft_free-version.ttf);
+}
+
+@font-face{
+    font-family: paragraphFont;
+	src: url('../font/ThrowMyHandsUpintheAir.ttf');
+	font-weight: bold;
+}
+
 /*Background*/
 html, body{
     margin: 0;
@@ -148,6 +160,12 @@ div.content{
 	margin: 0% 5% 5% 3%;
 }
 
+p{
+	font-family: paragraphFont;
+	font-size: 18px;
+	letter-spacing: 0.4px;
+}
+
 div.box{
 	padding: 5px;
 	background-image: url('../img/paper_overlay_light.png');
@@ -157,7 +175,17 @@ div.box{
 	border-image-outset: 7px;
 }
 
+h1,h2,h3{
+	margin: 0;
+	font-family: headerFont;
+	font-weight: normal;
+}
+
+h1{
+	font-size: 48px;
+}
+
 h3{
 	font-size: 20px;
-	margin: 0;
 }
+
