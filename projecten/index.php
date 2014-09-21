@@ -11,12 +11,14 @@
 <body>
 	<div>
 		<div class="container">
-			<!--Navigation Include-->
-			<?php
-
-			include '../nav.php';
-
-			?>
+			<!--Navigation Bar-->
+			<div id="nav" class="nav">
+				<a href="<?php echo $site?>index.php">Home</a>
+				<a href="<?php echo $site?>projecten/index.php">Projecten</a>
+				<a href="<?php echo $site?>index.php">Anders</a>
+				<a href="<?php echo $site?>index.php">Deze</a>
+			</div>
+			
 			<!--Website content-->
 			<div class="content">
 				<h1>Een werkplan indienen</h1>

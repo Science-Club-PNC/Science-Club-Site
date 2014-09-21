@@ -10,14 +10,14 @@
 </head>
 <body>
 	<div>
-	 <div class="container">
+		<div class="container">
 		 	<!--Navigation Bar-->
 			<div id="nav" class="nav">
 				<a href="<?php echo $site?>index.php">Home</a>
-				<a href="<?php echo $site?>index.php">Projecten</a>
+				<a href="<?php echo $site?>projecten/index.php">Projecten</a>
 				<a href="<?php echo $site?>index.php">Anders</a>
 				<a href="<?php echo $site?>index.php">Deze</a>
-			</div><br><br><br>
+			</div>
 	
 			<!--Website content-->
 			<div class="content">
