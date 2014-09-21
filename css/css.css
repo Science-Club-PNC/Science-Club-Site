@@ -34,10 +34,8 @@ div.container{
 	background-image: url('../img/paper_overlay_light.png');
 	background-color: white;
 	padding: 0.5% 0% 1% 0%;
-<<<<<<< HEAD
 	position: relative;
 	z-index: 999;
-=======
 	box-shadow: 0 0 10px rgba(0,0,0,0.3);
 	position: relative;
 }
@@ -64,7 +62,6 @@ div.container:after {
 	right: -3px;
 	top: 1px;
 	transform: rotate(1.4deg);
->>>>>>> c39318159aeac2ffbb739a185096dc9457cd547b
 }
 
 /*Navigatie Balk*/
