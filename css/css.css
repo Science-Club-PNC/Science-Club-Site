@@ -14,15 +14,16 @@ html, body{
     margin: 0;
 	height: 100%;
 	min-height: 100%;
+    overflow-x: hidden;
 }
 
 html{
-	background: lightgray url('../img/background.png') fixed;
+	background: lightgray url('../img/background.png') no-repeat fixed center;
 	background-size: cover;
 }
 
 body>div{
-	background: url('../img/paper_overlay.png') fixed;
+	background: url('../img/paper_overlay.png') fixed center;
 	display:inline-block;
 	width: 100%;
 	min-height: 100%;
@@ -31,7 +32,7 @@ body>div{
 /*Container*/
 div.container{
 	margin: 2% 10% 5% 10%;
-	background-image: url('../img/paper_overlay_light.png');
+	background-image: url('../img/paper_overlay_light.png') fixed center;
 	background-color: white;
 	padding: 0.5% 0% 1% 0%;
 	position: relative;
@@ -64,7 +65,7 @@ div.container:after {
 	transform: rotate(1.4deg);
 }
 
-/*Navigatie Balk*/
+/*Navigation Bar*/
 #nav {
 	position: absolute;
 	left: -4%;
