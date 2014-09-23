@@ -39,6 +39,7 @@ div.container{
 	position: relative;
 	box-shadow: 0 0 10px rgba(0,0,0,0.3);
 	position: relative;
+    height: 400px;
 }
 
 div.container:before, div.container:after {
