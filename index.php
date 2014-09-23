@@ -1,6 +1,12 @@
 <!Doctype HTML>
 <html>
 <head>
+    <!--
+    NOTE:
+    
+    This version only works on a webserver with the php extention working!
+    Please use index.html for a local working version.
+    -->
 	<title>Home</title>
 	<meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
