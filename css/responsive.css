@@ -12,71 +12,43 @@
 /*Background*/
 html, body{
     margin: 0;
-	height: 100%;
-	min-height: 100%;
-    overflow-x: hidden;
+    height: 100%;
 }
 
 html{
-	background: lightgray url('../img/background.png') no-repeat fixed center;
-	background-size: cover;
-}
-
-body>div{
 	background: url('../img/paper_overlay.png') fixed center;
-	display:inline-block;
-	width: 100%;
-	min-height: 100%;
-	position: absolute;
-	z-index: 100;
+    background-size: cover;
 }
 
-/*Container*/
-div.container{
+body{
+    background: url('../img/background.png') no-repeat fixed center;
+    background-size: cover;
+}
+
+/*Content*/
+div.content{
 	margin: 2% 10% 5% 10%;
 	background: white url('../img/paper_overlay_light.png') fixed center;
-	padding: 0.5% 0% 1% 0%;
+	padding: 5px 15px;
 	position: relative;
 	box-shadow: 0 0 10px rgba(0,0,0,0.3);
-	position: relative;
-    height: 400px;
-}
-
-div.container:before, div.container:after {
-	content: "";
-	height: 98%;
-	position: absolute;
-	width: 100%;
-	z-index: -1;
+    z-index: 500;
 }
 
 /*Navigation Bar*/
 #nav {
-	position: absolute;
-	left: -4%;
 	font-weight: bold;
-	height: 100%;
-	box-sizing: border-box;
-	transform: rotate(-90deg);
-	-o-transform: rotate(-90deg);
-	-ms-transform: rotate(-90deg);
-	-moz-transform: rotate(-90deg);
-	-webkit-transform: rotate(-90deg);
-	z-index: -1;
+	z-index: 999;
 }
 
 #nav a{
-	position: relative;
-	display: inline-block;
-	float: right;
-	box-sizing: border-box;
+	display: block;
 	padding: 5px;
 	color: #fff;
 	text-decoration: none;
 	width: 100px;
 	height: 50px;
 	opacity: 0.9;
-	box-shadow: -1px -1px 1px 1px #999;
 	font-family: paragraphFont;
 	font-size: 18px;
 }
@@ -99,7 +71,6 @@ div.container:before, div.container:after {
 
 #nav a:hover{
 	color: #fff;
-	opacity: 1;
 	text-decoration: none;
 	background-color: black;
 }
@@ -133,23 +104,7 @@ div.container:before, div.container:after {
 	display: block;
 }
 
-.Language{
-	width: 110px;
-	height: 75px;
-	float: right;
-}
-
-#nav a.language{
-	background: none;
-}
-
 /*Website Content*/
-div.content{
-	margin: 0% 5% 5% 3%;
-	position: relative;
-	z-index: 999;
-	padding: 0% 0% 0% 0%;
-}
 
 p{
 	font-family: paragraphFont;
