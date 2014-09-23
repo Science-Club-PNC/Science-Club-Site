@@ -50,27 +50,10 @@ div.container:before, div.container:after {
 	z-index: -1;
 }
 
-div.container:before {
-	background: #fafafa url('../img/paper_overlay_light.png') fixed center;
-	box-shadow: 0 0 8px rgba(0,0,0,0.2);
-	left: -5px;
-	top: 4px;
-	transform: rotate(-2.5deg);
-}
-
-div.container:after {
-	background: #f6f6f6 url('../img/paper_overlay_light.png') fixed center;
-	box-shadow: 0 0 3px rgba(0,0,0,0.2);
-	right: -3px;
-	top: 1px;
-	transform: rotate(1.4deg);
-}
-
 /*Navigation Bar*/
 #nav {
 	position: absolute;
 	left: -4%;
-	top: 15%;
 	font-weight: bold;
 	height: 100%;
 	box-sizing: border-box;
@@ -99,38 +82,18 @@ div.container:after {
 }
 
 #nav a:first-child {
-	transform: rotate(4deg);
-	-o-transform: rotate(3deg);
-	-ms-transform: rotate(3deg);
-	-moz-transform: rotate(3deg);
-	-webkit-transform: rotate(3deg);
 	background: rgb(100, 100, 200);
 }
 
 #nav a:nth-child(2) {
-	transform: rotate(-1deg);
-	-o-transform: rotate(-1deg);
-	-ms-transform: rotate(-1deg);
-	-moz-transform: rotate(-1deg);
-	-webkit-transform: rotate(-1deg);
 	background: rgb(175, 200, 150);
 }
 
 #nav a:nth-child(3) {
-	transform: rotate(2deg);
-	-o-transform: rotate(2deg);
-	-ms-transform: rotate(2deg);
-	-moz-transform: rotate(2deg);
-	-webkit-transform: rotate(2deg);
 	background: rgb(200, 79, 80);
 }
 
 #nav a:last-child {
-		transform: rotate(-5deg);
-	-o-transform: rotate(-5deg);
-	-ms-transform: rotate(-5deg);
-	-moz-transform: rotate(-5deg);
-	-webkit-transform: rotate(-5deg);
 	background: rgb(200, 200, 75);
 }
 
