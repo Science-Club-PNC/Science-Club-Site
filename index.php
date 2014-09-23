@@ -1,22 +1,21 @@
 <!Doctype HTML>
 <html>
 <head>
-	<title>
-		Home
-	</title>
+	<title>Home</title>
 	<meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/css.css">
-	<link rel="shortcut icon" type="image/png" href="img/icon.png">
+	<link rel="icon" type="image/png" href="img/icon.png">
 </head>
 <body>
 	<div>
 		<div class="container">
 		 	<!--Navigation Bar-->
 			<div id="nav" class="nav">
-				<a href="index.php">Home</a>
+				<a href="index.html">Home</a>
 				<a href="projecten/index.php">Projecten</a>
-				<a href="index.php">Anders</a>
-				<a href="index.php">Deze</a>
+				<a href="index.html">Anders</a>
+				<a href="index.html">Deze</a>
 			</div>
 	
 			<!--Website content-->
