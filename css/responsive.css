@@ -16,13 +16,8 @@ html, body{
 }
 
 html{
-	background: url('../img/paper_overlay.png') fixed center;
-    background-size: cover;
-}
-
-body{
-    background: url('../img/background.png') no-repeat fixed center;
-    background-size: cover;
+	background: url('../img/paper_overlay.png') fixed center, url('../img/background.png') no-repeat fixed center;
+    background-size: cover cover;
 }
 
 /*Content*/
