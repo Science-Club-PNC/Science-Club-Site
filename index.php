@@ -27,10 +27,21 @@
 			<!--Website content-->
 			<div class="content">
 				<?php
-                
-                //TODO: Create page system, placeholer for now
-                include_once("page/home.php");
-                
+
+				if(empty($_GET['page']) || !isset($_GET['page'])) {
+					$page = "home";
+				} else {
+					$page = $_GET['page'];
+				}
+
+				$path = "pages/" . $page . ".php";
+
+				if(!file_exists($path)) {
+					$path = "pages/404.php";
+				}
+
+				include_once($path);
+
                 ?>
 			</div>
 		</div>
