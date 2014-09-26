@@ -1,28 +1,28 @@
 /*Fonts*/
-@font-face{
+@font-face {
     font-family: headerFont;
-	src: url(../font/handwriting-draft_free-version.ttf);
+	src: url('../font/handwriting-draft_free-version.ttf');
 }
 
-@font-face{
+@font-face {
     font-family: paragraphFont;
-	src: url(../font/YummyCupcakes.ttf);
+	src: url('../font/YummyCupcakes.ttf');
 }
 
 /*Background*/
-html, body{
+html, body {
     margin: 0;
 	height: 100%;
 	min-height: 100%;
     overflow-x: hidden;
 }
 
-html{
+html {
 	background: #afafca url('../img/background.png') no-repeat fixed center;
 	background-size: cover;
 }
 
-body>div{
+body>div {
 	display:inline-block;
 	position: absolute;
 	z-index: 100;
@@ -32,7 +32,7 @@ body>div{
 }
 
 /*Container*/
-div.container{
+div.container {
 	position: relative;
 	margin: 2% 10% 5% 10%;
 	padding: 0.5% 0% 1% 0%;
@@ -79,7 +79,7 @@ div.container:after {
 	font-weight: bold;
 }
 
-#nav a{
+#nav a {
 	display: inline-block;
 	position: relative;
 	float: right;
@@ -96,7 +96,7 @@ div.container:after {
 	text-decoration: none;
 }
 
-#nav a:nth-child(1){
+#nav a:nth-child(1) {
 	transform: rotate(3deg);
 	-o-transform: rotate(3deg);
 	-ms-transform: rotate(3deg);
@@ -132,7 +132,7 @@ div.container:after {
 	background: rgb(200, 200, 75);
 }
 
-#nav a:hover{
+#nav a:hover {
 	top: 0;
 	opacity: 1;
 	color: white;
@@ -140,41 +140,41 @@ div.container:after {
 }
 
 /*Website Content*/
-div.content{
+div.content {
 	position: relative;
 	z-index: 999;
 	margin: 0% 5% 5% 3%;
 	padding: 0% 0% 0% 0%;
 }
 
-p{
+p {
 	font-family: paragraphFont;
 	font-size: 26px;
 	letter-spacing: 0.4px;
 }
 
-div.box{
+div.box {
 	padding: 5px;
 	border: 7px solid #000;
 	border-image: url('../img/crude_drawn_border.png') 35 round;
 	border-image-outset: 7px;
 }
 
-hr{
+hr {
 	border: 5px solid #000;
 	border-image: url('../img/crude_drawn_border.png') 10 round;
 }
 
-h1,h2,h3{
+h1, h2, h3 {
 	margin: 0;
 	font-family: headerFont;
 	font-weight: normal;
 }
 
-h1{
+h1 {
 	font-size: 48px;
 }
 
-h3{
+h3 {
 	font-size: 32px;
 }
