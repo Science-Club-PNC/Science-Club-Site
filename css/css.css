@@ -34,7 +34,7 @@ body>div{
 /*Container*/
 div.container{
 	margin: 2% 10% 5% 10%;
-	background: white url('../img/paper_overlay_light.png') fixed center;
+	background: #ffffee url('../img/paper_overlay_light.png') fixed center;
 	padding: 0.5% 0% 1% 0%;
 	position: relative;
 	box-shadow: 0 0 10px rgba(0,0,0,0.3);
@@ -51,7 +51,7 @@ div.container:before, div.container:after {
 }
 
 div.container:before {
-	background: #dfdfdf url('../img/paper_overlay_light.png') fixed center;
+	background: #dfdfcf url('../img/paper_overlay_light.png') fixed center;
 	box-shadow: 0 0 8px rgba(0,0,0,0.2);
 	left: -5px;
 	top: 4px;
@@ -59,7 +59,7 @@ div.container:before {
 }
 
 div.container:after {
-	background: #dadada url('../img/paper_overlay_light.png') fixed center;
+	background: #dadaca url('../img/paper_overlay_light.png') fixed center;
 	box-shadow: 0 0 3px rgba(0,0,0,0.2);
 	right: -3px;
 	top: 1px;
