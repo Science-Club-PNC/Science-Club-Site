@@ -13,10 +13,10 @@
 		<div class="container">
 			<!--Navigation Bar-->
 			<div id="nav" class="nav">
-				<a href="../">Home</a>
-				<a href="">Projecten</a>
-				<a href="">Anders</a>
-				<a href="">Deze</a>
+				<a href="../index.php">Home</a>
+				<a href="index.php">Projecten</a>
+				<a href="index.php">Anders</a>
+				<a href="index.php">Deze</a>
 			</div>
 
 			<!--Website content-->
