@@ -18,10 +18,10 @@
 		<div class="container">
 		 	<!--Navigation Bar-->
 			<div id="nav" class="nav">
-				<a href="index.html">Home</a>
-				<a href="projecten/index.php">Projecten</a>
-				<a href="index.html">Anders</a>
-				<a href="index.html">Deze</a>
+				<a href="">Home</a>
+				<a href="projecten/">Projecten</a>
+				<a href="">Anders</a>
+				<a href="">Deze</a>
 			</div>
 	
 			<!--Website content-->
